@@ -87,7 +87,7 @@ display: block;
 }
 
 #ikony img{
-  max-width: 100px;
+  max-width: 110px;
   height: 90%;
   width: 90%;
   float: right;
@@ -134,3 +134,4 @@ display: block;
   width: 800px;
   height: 500px;
 }
+
