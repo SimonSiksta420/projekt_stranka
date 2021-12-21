@@ -87,11 +87,11 @@ display: block;
 }
 
 #ikony img{
-  max-width: 130px;
+  max-width: 100px;
   height: 90%;
   width: 90%;
   float: right;
-  max-height: 130px;
+  max-height: 100px;
 }
 
 #ikony{
