@@ -1,0 +1,136 @@
+#obal{
+max-width: 1200px;  
+width: 90%;
+margin: auto;
+}
+
+#menu ul, li {
+  padding-top: 0;
+  margin: 1px;
+  position: relative;
+}
+
+#menu li{
+  float: left;
+  
+}
+
+#menu ul a {
+  display: inline-block;
+  border-radius: 5px;
+  background-color: rgb(117, 117, 117);
+  text-align:center;
+  line-height:40px;
+  margin-bottom: 2px;
+  width:200px;
+  height:40px;
+  
+}
+
+#menu li a:hover {
+  background-color: rgb(65, 65, 65);
+}
+
+#menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  z-index: 100;
+}
+
+#menu ul ul{
+  display: none;
+  position: absolute;
+}
+
+#menu li:hover ul{
+display: block;
+}
+
+#menu li a{
+  text-decoration: none;
+  color: white;
+}
+
+#logo img{
+  max-width: 70px;
+  height: auto;
+}
+
+#logo{
+  margin: 23px;
+}
+
+#menu {
+  margin-bottom: 5%;
+}
+
+#text-obal{
+  max-width: 1000px;
+  width: 100%;
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#text{
+  max-width: 950px;
+  width: 100%;
+  position: relative;
+  float: left;
+  text-align: left;
+  margin-top: 1%;
+  
+}
+
+.nadpis_1{
+  text-align: center;
+}
+
+#ikony img{
+  max-width: 130px;
+  height: 90%;
+  width: 90%;
+  float: right;
+  max-height: 130px;
+}
+
+#ikony{
+  max-width: 1000px;
+  width: 100%;
+  float: right;
+  height: 90px;
+}
+
+#obedy-tabulka th, td {
+  border:1px solid black;
+  text-align: center;
+  padding: 5px;
+}
+
+#obedy-tabulka table{
+  width: 50%;
+}
+
+.zadni_vchod{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+  width: 75%;
+}
+
+.mapa{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  height: 600px;
+}
+
+.video{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  height: 500px;
+}
